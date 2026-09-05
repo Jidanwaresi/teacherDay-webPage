@@ -211,6 +211,7 @@ body {
     z-index: 1;
     line-height: 31px;
 }
+
 @keyframes penBlink {
     0%,100% { opacity:1; }
     50%      { opacity:0; }
@@ -235,9 +236,11 @@ body {
     opacity: 0;
     animation: stylusIn .5s ease 1.3s forwards;
 }
+
 @keyframes stylusIn {
     to { opacity:1; }
 }
+
 .stylus-body {
     width: 10px;
     height: 90px;
@@ -245,6 +248,7 @@ body {
     border-radius: 3px 3px 0 0;
     box-shadow: 2px 2px 5px rgba(0,0,0,.2);
 }
+
 .stylus-tip {
     width: 0; height: 0;
     border-left: 5px solid transparent;
@@ -283,6 +287,7 @@ body {
     /* Human Written Comment: Bouncy & smooth entrance animation apply করা হয়েছে */
     animation: slideUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
+
 @keyframes slideUp {
     from {
         opacity: 0;
