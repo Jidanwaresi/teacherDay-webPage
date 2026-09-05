@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Happy Teacher's Day — Jidan Waresi</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="header-left">
+            <img src="assets/scs-logo.png" alt="Sheryians Coding School Logo" class="header-logo">
+            <div class="header-text">
+                <span class="header-sub">Student of</span>
+                <span class="header-school">Sheryians Coding School</span>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="header-name">Jidan Waresi</span>
+            <span class="header-batch">Beyond Sigma (NYC)</span>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <!-- LEFT: const teacher - C++ -->
+            <div class="hero-bg-code left">
+<pre><span class="c-comment">// teachers are constant</span>
+<span class="c-type">struct</span> <span class="c-name">Teacher</span> {
+  <span class="c-type">string</span> patience  = <span class="c-str">"infinite"</span>;
+  <span class="c-type">string</span> impact    = <span class="c-str">"immeasurable"</span>;
+  <span class="c-type">bool</span>   teaching  = <span class="c-kw">true</span>;
+
+  <span class="c-type">void</span> <span class="c-fn">inspire</span>() {
+    <span class="c-kw">while</span> (teaching) {
+      <span class="c-fn">guide</span>(student);
+      <span class="c-fn">patience</span>++;
+    }
+  }
+};
+
+<span class="c-kw">const</span> Teacher sheryians;</pre>
+            </div>
+
+            <!-- CENTER -->
+            <div class="hero-center">
+                <h1 class="hero-title">
+                    <span class="title-word">HAPPY</span>
+                    <span class="title-word">TEACHER'S</span>
+                    <span class="title-word">DAY</span>
+                    <span class="cursor-blink">|</span>
+                </h1>
+
+                <!-- iPad frame -->
+                <div class="ipad-wrap">
+                    <div class="ipad-frame">
+                        <div class="ipad-camera"></div>
+                        <div class="ipad-screen">
+                            <div class="ipad-toolbar">
+                                <span class="toolbar-dot"></span>
+                                <span class="toolbar-dot"></span>
+                                <span class="toolbar-dot"></span>
+                                <span class="toolbar-title">Gallery</span>
+                            </div>
+                            <div class="ipad-canvas">
+                                <p class="pen-text" id="penText"></p>
+                                <span class="pen-cursor" id="penCursor"></span>
+                            </div>
+                        </div>
+                        <div class="ipad-home-btn"></div>
+                    </div>
+                    <div class="stylus-pen">
+                        <div class="stylus-body"></div>
+                        <div class="stylus-tip"></div>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="hero-bg-code right">
+<pre><span class="c-comment">// jidan.cpp</span>
+<span class="c-type">int</span> <span class="c-fn">main</span>() {
+  Student jidan;
+  jidan.batch = <span class="c-str">"BeyondSigma"</span>;
+
+  <span class="c-kw">while</span> (<span class="c-kw">true</span>) {
+    jidan.<span class="c-fn">learn</span>();
+    jidan.<span class="c-fn">build</span>();
+    jidan.<span class="c-fn">fail</span>();
+    jidan.<span class="c-fn">reflect</span>();
+    jidan.<span class="c-fn">learn</span>();
+    jidan.<span class="c-fn">build</span>();
+    <span class="c-comment">// repeat forever</span>
+  }
+
+  <span class="c-kw">return</span> <span class="c-num">0</span>;
+}</pre>
+            </div>
+
+        </section>
+
+        <!-- TEACHERS SECTION -->
+        <section class="teachers-section">
+            <p class="section-label">Our Mentors</p>
+            <div class="teachers-grid">
+
+                <!-- User requested specific image updates here -->
+                <aside class="teacher-card reveal" style="--accent:#b8a36e;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Harsh Vandana Sharma</h3>
+                        <p class="teacher-role">Founder &amp; CEO — Sheryians</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Harsh Sir.jpg" alt="Harsh Vandana Sharma" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"He is the reason we found Sheryians Coding School in the first place. And somehow,that journey eventually led us to Not Your College.Watching his JavaScript tutorials on YouTube changed everything, he built this school as a gift to every learner, bringing together the best teachers under one roof."</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/harshvandanasharma/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/harsh-vandana-sharma
+                        </a>
+                    </div>
+                </aside>
+
+                <aside class="teacher-card reveal" style="--accent:#8aab8a;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Muskan Rai</h3>
+                        <p class="teacher-role">DSA &amp; Java Instructor</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Muskan Ma'am.jpg" alt="Muskan Rai" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"She showed me that DSA isn't something to fear, it's something to understand. <br> Her way of making complex data structures feel simple and approachable is a rare gift. <br>Having her as our DSA Instructor is truly a gift to us"</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/muskan-rai-bb744421b/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/muskan-rai
+                        </a>
+                    </div>
+                </aside>
+
+                <aside class="teacher-card reveal" style="--accent:#b8a36e;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Devendra Dhote</h3>
+                        <p class="teacher-role">Frontend Instructor — Beyond Sigma</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Devendra Sir.jpg" alt="Devendra Dhote" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"He teaches frontend with so much fun and laughter that you forget you're even studying. Genuinely student friendly, and <br>his way of breaking down concepts makes every session worth looking forward to."</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/devendra-dhote/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/devendra-dhote
+                        </a>
+                    </div>
+                </aside>
+
+                <aside class="teacher-card reveal" style="--accent:#8aab8a;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Ankur Prajapati</h3>
+                        <p class="teacher-role">Backend &amp; Git/GitHub Instructor</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Ankur Sir.jpg" alt="Ankur Prajapati" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"He taught me Git and GitHub, but more than that, he showed me what truly fluent teaching looks like. Concepts that seemed abstract became crystal clear through his effortlessly easy explanations.<br>I hope to learn many more things from him in the future "</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/ankur-prajapati-177542231/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/ankur-prajapati
+                        </a>
+                    </div>
+                </aside>
+
+                <aside class="teacher-card reveal" style="--accent:#b8a36e;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Akarsh Vyas</h3>
+                        <p class="teacher-role">Gen AI &amp; Python Educator</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Akash Sir.jpg" alt="Akarsh Vyas" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"He made the entire landscape of AI:Neural Networks,CNN,RNN,LSTM,Transformers, feel like a story worth following. Without him as a teacher, I wouldn't have understood what powers modern LLMs. <br>Even from the pre-introduction,<br>I got a glimpse of how fascinating AI really is,i hope that when we dive deeper into AI, I'll get to learn many more things from you,"</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/akarsh-vyas-971590229/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/akarsh-vyas
+                        </a>
+                    </div>
+                </aside>
+
+                <aside class="teacher-card reveal" style="--accent:#8aab8a;">
+                    <div class="card-top">
+                        <h3 class="teacher-name">Sarthak Sharma</h3>
+                        <p class="teacher-role">Full Stack Developer &amp; Tech Creator</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="profile-row">
+                            <img src="./assets/Sarthak Sir.jpg" alt="Sarthak Sharma" class="teacher-photo">
+                            <div class="profile-meta">
+                                <span class="mentor-tag">My Teacher &amp; Mentor</span>
+                                <blockquote class="teacher-quote">"His YouTube content on frontend was some of the first I discovered. Honest truth, <br>I couldn't finish it all with college and part-time work, but every concept he covers makes you genuinely interested. Anyone who hasn't seen it yet, please do."</blockquote>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/sarthack-sharma/" target="_blank" class="linkedin-link">
+                            <svg class="li-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.987V9h3.1v1.561h.046c.431-.816 1.484-1.676 3.054-1.676 3.267 0 3.869 2.149 3.869 4.942v6.625zM5.337 7.433a1.8 1.8 0 1 1 0-3.6 1.8 1.8 0 0 1 0 3.6zm1.555 13.019H3.782V9h3.11v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            in/sarthak-sharma
+                        </a>
+                    </div>
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-quote">"Some people write code. The best ones write it into you <br> as curiosity, as courage, as a way of thinking. <br>Thank you for being that kind of teacher."</p>
+            <p class="footer-credit">A tribute from the heart by Jidan Waresi · Sheryians Coding School, Beyond Sigma (NYC) · 2025</p>
+            <a href="https://github.com/jidanwaresi" target="_blank" class="github-link" aria-label="GitHub Profile">
+                <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                github.com/jidanwaresi
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        // ── Pen typewriter on iPad ──
+        const msg = "Thank you for being the guiding lights on our path. Your inspiration is our map for moving forward.";
+        const el  = document.getElementById('penText');
+        const cur = document.getElementById('penCursor');
+        let i = 0;
+        
+
+        function type() {
+            if (i < msg.length) {
+                el.textContent += msg[i++];
+                setTimeout(type, 95); 
+            } else {
+                cur.style.display = 'none';
+            }
+        }
+        setTimeout(type, 1400);
+
+        // ── Scroll reveal — Staggered Entry Animation (Embossed Cards) ──
+        const cards = document.querySelectorAll('.teacher-card');
+
+        const observer = new IntersectionObserver((entries) => {
+            const visible = entries.filter(e => e.isIntersecting);
+            visible.forEach((entry, i) => {
+                setTimeout(() => {
+                    entry.target.classList.add('visible');
+                }, i * 200);   
+                observer.unobserve(entry.target);
+            });
+        }, {
+            threshold: 0.08,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        cards.forEach(card => observer.observe(card));
+    </script>
+
+</body>
+</html>
